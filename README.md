@@ -1,8 +1,8 @@
 [//]: # (Image References)
 
 [image1]: ./images/sample_dog_output.png "Sample Output"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+[image2]: ./images/sample_cnn.png "VGG-16 Model Layers"
+[image3]: ./images/sample_human_output.png "VGG16 Model Figure"
 
 
 ## Project Overview
@@ -12,6 +12,7 @@ mobile app to process real-world, user-supplied images.  Given an image of a dog
 If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
+
 ![Sample Output][image3]
 
 ## Training Dataset
