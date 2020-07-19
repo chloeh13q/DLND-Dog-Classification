@@ -40,7 +40,14 @@ My transfer learning model uses ResNet, with the last fully connected redesigned
 3. The actual algorithm accepts an image as inputs, tries to detect whether a human/dog face is present in the input image, and either identifies or finds a 
 most similar dog breed accordingly.
 
-### Run Instructions
+## Python Package Dependencies
+
+* [PyTorch](https://pytorch.org/)
+* [OpenCV](https://pypi.org/project/opencv-python/)
+* [NumPy](https://numpy.org/install/)
+* [Matplotlib](https://matplotlib.org/3.3.0/users/installing.html)
+
+## Run Instructions
 
 1. Clone the repository and navigate to the downloaded folder.
 	
@@ -49,8 +56,9 @@ most similar dog breed accordingly.
 		cd deep-learning-v2-pytorch/project-dog-classification
 	```
 2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`.  The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
-3. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
-4. Make sure you have already installed the necessary Python packages according to the README in the program repository.
+3. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  
+If you are using a Windows machine, you can use [7zip](http://www.7-zip.org/) to extract the folder. 
+4. Make sure you have already installed the necessary Python packages.
 5. Open a terminal window and navigate to the project folder. Open the notebook and follow the instructions.
 	
 	```
